@@ -1,0 +1,10 @@
+[package]
+name = "finance_data_fetch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0.215"
+ureq = "2.10.1"
+dotenv = "0.15.0"
+serde_json = { version = "1.0", default-features = true, features = ["alloc"] }
